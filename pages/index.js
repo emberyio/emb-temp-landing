@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className='font-bold text-text uppercase lg:text-[150px] text-[68px] leading-[54px] lg:leading-[120px] md:text-[129px] md:leading-[103px]'>
           embark<br />on <Typewriter
             options={{
-              strings: ['graphic design', 'branding', 'custom software consultancy', 'software consultancy'],
+              strings: ['Veewoo', 'OMG', 'custom software consultancy', 'software consultancy'],
               autoStart: true,
               loop: true,
 
