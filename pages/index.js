@@ -1,11 +1,14 @@
 import { AiOutlineArrowRight, AiFillFacebook, AiFillLinkedin } from 'react-icons/ai'
 import Typewriter from 'typewriter-effect';
 import { PopupButton } from '@typeform/embed-react'
+import Image from 'next/image';
+import Logo from '../public/embery-symbol.png'
 
 export default function Home() {
   return (
     <div className='flex flex-col justify-between h-screen px-5 bg-black lg:px-10'>
-      <div className='flex items-end justify-end w-full pt-5 pr-5'>
+      <div className='flex items-center justify-between w-full pt-5 pr-5'>
+        <Image src={Logo.src} width={100} height={100} alt="logo" />
         <PopupButton id="LUTUxwcD" style={{ fontSize: 20 }} className="my-button">
           <div className='flex items-center justify-center space-x-2'>
             <span className='font-thin text-gray-400'>start a conversation</span>
