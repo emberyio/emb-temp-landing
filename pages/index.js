@@ -1,8 +1,9 @@
-import { AiOutlineArrowRight, AiFillFacebook, AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineArrowRight, AiFillFacebook, AiFillLinkedin, AiFillPhone } from 'react-icons/ai'
 import Typewriter from 'typewriter-effect';
 import { PopupButton } from '@typeform/embed-react'
 import Image from 'next/image';
 import Logo from '../public/embery-symbol.png'
+import {TiLocation} from 'react-icons/ti'
 
 export default function Home() {
   return (
@@ -31,12 +32,18 @@ export default function Home() {
           <p className="text-2xl font-semibold leading-6 uppercase text-text opacity-70">We will take care of branding, digital graphic design and full-stack website development to let you<br />focus on your business.</p>
         </div>
       </div>
-      <div className='flex flex-row justify-end w-full pb-10 space-x-5 text-2xl'>
+      <div className='flex flex-row items-center justify-end w-full pb-10 space-x-5 text-2xl'>
         <a href="https://www.facebook.com/emberydigital">
           <AiFillFacebook className="text-text" />
         </a>
         <a href="https://www.linkedin.com/company/embery/">
           <AiFillLinkedin className="text-text" />
+        </a>
+        <a href="tel:+1300 685 090" title="+1300 685 090" className='text-text'><AiFillPhone /></a>
+        <a href="https://www.google.com/maps/place/470+St+Kilda+Rd,+Melbourne+VIC+3004,+Australia/@-37.8412405,144.9745811,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad6693aa464baf9:0xbd7c4b011b939aeb!8m2!3d-37.8412448!4d144.9767698"
+        title="470 St Kilda Rd, Melbourne VIC 3004"
+        target="_blank" rel="noreferrer">
+          <TiLocation className="text-text" />
         </a>
       </div>
     </div>
