@@ -18,10 +18,10 @@ export default function Home() {
         </PopupButton>
       </div>
       <div>
-        <h1 className='font-bold text-text uppercase lg:text-[150px] text-[68px] leading-[54px] lg:leading-[120px] md:text-[129px] md:leading-[103px]'>
+        <h1 className='font-bold text-text uppercase lg:text-[130px] text-[38px] leading-[54px] lg:leading-[120px] md:text-[129px] md:leading-[103px]'>
           embark<br />on <Typewriter
             options={{
-              strings: ['graphic design', 'branding', 'custom software consultancy', 'software consultancy'],
+              strings: ['website design', 'graphic design', 'branding','UX/UI design', 'Ecommerce'],
               autoStart: true,
               loop: true,
 
@@ -29,7 +29,7 @@ export default function Home() {
           />
         </h1>
         <div className="pt-10">
-          <p className="text-2xl font-semibold leading-6 uppercase text-text opacity-70">We will take care of branding, digital graphic design and full-stack website development to let you<br />focus on your business.</p>
+          <p className="text-lg font-semibold leading-6 uppercase lg:text-2xl text-text opacity-70">We will take care of branding, digital graphic design and full-stack website development to let you<br />focus on your business.</p>
         </div>
       </div>
       <div className='flex flex-row items-center justify-end w-full pb-10 space-x-5 text-2xl'>
